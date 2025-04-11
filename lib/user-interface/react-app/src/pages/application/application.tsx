@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import Chat from "../../components/chatbot/chat";
 import styles from "../../styles/chat.module.scss";
-import { TopNavigation } from "@cloudscape-design/components";
 import { useState } from "react";
 import { Mode } from "@cloudscape-design/global-styles";
 import { StorageHelper } from "../../common/helpers/storage-helper";
@@ -35,7 +34,7 @@ export default function ApplicationChat() {
         }}
       >
         <img 
-          src="https://tools.danaconnect.com/emailsecurity/assets/images/DANA-logo-horizontal-blanco.png" 
+          src="/images/logo.png" 
           alt="Dana Logo" 
           style={{ 
             height: '40px', 
